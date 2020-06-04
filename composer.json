@@ -1,0 +1,38 @@
+{
+    "name": "zitec/form-autocomplete-bundle",
+    "description": "This bundle creates autocomplete form fields for you entities.",
+    "homepage": "https://www.zitec.com",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "ext-json": "*",
+        "php": ">=7.4.0",
+        "symfony/framework-bundle": "^4.4",
+        "symfony/orm-pack": "^1.0",
+        "symfony/form": "^4.4",
+        "twig/twig": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Ionut BRETA"
+        },
+        {
+            "name": "Cosmin MARIN"
+        },
+        {
+            "name": "Alex MIREA"
+        }
+    ],
+    "config": {
+        "discard-changes": true,
+        "platform": {
+            "php": "7.4.0"
+        }
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Zitec\\FormAutocompleteBundle\\": ""
+        }
+    }
+}

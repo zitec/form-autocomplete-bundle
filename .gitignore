@@ -1,0 +1,5 @@
+.idea
+automation
+vendor/
+composer.lock
+phpunit.xml
