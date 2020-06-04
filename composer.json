@@ -3,7 +3,7 @@
     "description": "This bundle creates autocomplete form fields for you entities.",
     "homepage": "https://www.zitec.com",
     "license": "MIT",
-    "type": "library",
+    "type": "symfony-bundle",
     "require": {
         "ext-json": "*",
         "php": ">=7.4.0",
