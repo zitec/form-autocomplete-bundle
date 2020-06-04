@@ -14,13 +14,8 @@
     },
     "authors": [
         {
-            "name": "Ionut BRETA"
-        },
-        {
-            "name": "Cosmin MARIN"
-        },
-        {
-            "name": "Alex MIREA"
+            "name": "Zitec Team",
+            "homepage": "https://www.zitec.com"
         }
     ],
     "config": {
