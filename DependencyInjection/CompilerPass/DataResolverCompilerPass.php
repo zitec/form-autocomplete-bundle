@@ -4,9 +4,9 @@ namespace Zitec\FormAutocompleteBundle\DependencyInjection\CompilerPass;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Symfony\Component\DependencyInjection\Exception\LogicException;
 use Symfony\Component\DependencyInjection\Parameter;
 use Symfony\Component\DependencyInjection\Reference;
-use Symfony\Component\DependencyInjection\Exception\LogicException;
 use Zitec\FormAutocompleteBundle\DataResolver\DataResolverInterface;
 use Zitec\FormAutocompleteBundle\DataResolver\LimitAwareDataResolverInterface;
 
