@@ -138,7 +138,7 @@ the user must create a service that implements the DataResolverInterface, tag it
 
 #### Fields:
   * DATA_RESOLVER_TAG: zitec_autocomplete_data_resolver;
-  * DATA_RESOLVER_MANAGER_ID:zitec.form_autocomplete.data_resolver_manager;
+  * DATA_RESOLVER_MANAGER_ID: zitec.form_autocomplete.data_resolver_manager;
 
 ### AutocompleteDataTransformer
 The data transformer specific to the autocomplete form field type. It will use the data resolver specific to the currently handled field. Implements DataTransformerInterface.
